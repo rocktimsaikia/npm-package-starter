@@ -17,7 +17,7 @@
 	"funding": "https://github.com/sponsors/rocktimsaikia",
 	"repository": "rocktimsaikia/my-npm-package",
 	"scripts": {
-		"build": "rm -rf dist && tsup src/index.ts --dts --format esm,cjs",
+		"build": "tsup",
 		"test": "pnpm build && ava",
 		"release": "pnpm test && np --no-tests",
 		"examples:run": "for file in examples/*.ts; do tsx \"$file\"; done"
@@ -37,5 +37,17 @@
 	"keywords": [
 		"my-npm-package"
 	],
-	"prettier": "@rocktimsaikia/prettier-config"
+	"prettier": "@rocktimsaikia/prettier-config",
+	"tsup": {
+		"entry": [
+			"src/index.ts"
+		],
+		"format": [
+			"cjs",
+			"esm"
+		],
+		"minify": true,
+		"clean": true,
+		"dts": true
+	}
 }
