@@ -2,7 +2,7 @@
 
 A simple npm package template
 
-[![npm](https://img.shields.io/npm/v/my-npm-package?color=bright)](https://npmjs.com/package/my-npm-package)
+[![CI](https://github.com/rocktimsaikia/my-npm-package/actions/workflows/main.yml/badge.svg)] [![npm](https://img.shields.io/npm/v/my-npm-package?color=bright)](https://npmjs.com/package/my-npm-package)
 
 ## Installtion
 
@@ -18,14 +18,22 @@ import { add } from 'my-npm-package';
 const sum = add(1, 2);
 
 console.log(sum);
+// => 3
 ```
 
-Outputs:
+## API
 
-```sh
-3
-```
+### add(parameters)
 
-## License
+Add two numbers and returns the total.
 
-MIT &copy; [Rocktim Saikia](https://rocktimsaikia.dev)
+#### Parameters
+
+##### 1.
+> Type: `number` \
+The first number.
+
+##### 2.
+> Type: `number` \
+The second number.
+
