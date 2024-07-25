@@ -1,9 +1,9 @@
 {
-	"name": "my-npm-package",
+	"name": "npm-package-starter",
 	"version": "0.0.0",
 	"description": "Get country information via currency code",
-	"keywords": ["my-npm-package"],
-	"repository": "rocktimsaikia/my-npm-package",
+	"keywords": ["npm-package-starter"],
+	"repository": "rocktimsaikia/npm-package-starter",
 	"funding": "https://github.com/sponsors/rocktimsaikia",
 	"license": "MIT",
 	"author": {

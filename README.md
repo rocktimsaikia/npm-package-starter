@@ -1,19 +1,19 @@
-# my-npm-package
+# npm-package-starter
 
 A simple npm package template
 
-[![CI](https://github.com/rocktimsaikia/my-npm-package/actions/workflows/main.yml/badge.svg)](https://github.com/rocktimsaikia/my-npm-package/actions/workflows/main.yml) [![npm](https://img.shields.io/npm/v/my-npm-package?color=bright)](https://npmjs.com/package/my-npm-package)
+[![CI](https://github.com/rocktimsaikia/npm-package-starter/actions/workflows/main.yml/badge.svg)](https://github.com/rocktimsaikia/npm-package-starter/actions/workflows/main.yml) [![npm](https://img.shields.io/npm/v/my-npm-package?color=bright)](https://npmjs.com/package/my-npm-package)
 
 ## Installtion
 
 ```sh
-pnpm add my-npm-package
+pnpm add npm-package-starter
 ```
 
 ## Usage
 
 ```javascript
-import { add } from 'my-npm-package';
+import { add } from 'npm-package-starter';
 
 const sum = add(1, 2);
 
