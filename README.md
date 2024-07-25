@@ -2,7 +2,7 @@
 
 A simple npm package template
 
-[![CI](https://github.com/rocktimsaikia/my-npm-package/actions/workflows/main.yml/badge.svg)] [![npm](https://img.shields.io/npm/v/my-npm-package?color=bright)](https://npmjs.com/package/my-npm-package)
+[![CI](https://github.com/rocktimsaikia/my-npm-package/actions/workflows/main.yml/badge.svg)](https://github.com/rocktimsaikia/my-npm-package/actions/workflows/main.yml) [![npm](https://img.shields.io/npm/v/my-npm-package?color=bright)](https://npmjs.com/package/my-npm-package)
 
 ## Installtion
 
