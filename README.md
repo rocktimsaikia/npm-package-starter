@@ -7,7 +7,7 @@ A simple npm package template
 ## Installtion
 
 ```sh
-pnpm add npm-package-starter
+npm i npm-package-starter
 ```
 
 ## Usage
