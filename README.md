@@ -13,7 +13,7 @@ npm i npm-package-starter
 ## Usage
 
 ```javascript
-import { add } from 'npm-package-starter';
+import { add } from "npm-package-starter";
 
 const sum = add(1, 2);
 
@@ -30,10 +30,11 @@ Add two numbers and returns the total.
 #### Parameters
 
 ##### 1.
+
 > Type: `number` \
-The first number.
+> The first number.
 
 ##### 2.
-> Type: `number` \
-The second number.
 
+> Type: `number` \
+> The second number.
