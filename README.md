@@ -38,3 +38,7 @@ Add two numbers and returns the total.
 
 > Type: `number` \
 > The second number.
+
+## LICENSE
+
+[MIT](./LICENSE) License &copy; [Rocktim Saikia](https://rocktimsaikia.dev) 2024
