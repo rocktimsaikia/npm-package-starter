@@ -2,7 +2,9 @@
 	"name": "npm-package-starter",
 	"version": "0.0.0",
 	"description": "Get country information via currency code",
-	"keywords": ["npm-package-starter"],
+	"keywords": [
+		"npm-package-starter"
+	],
 	"repository": "rocktimsaikia/npm-package-starter",
 	"funding": "https://github.com/sponsors/rocktimsaikia",
 	"license": "MIT",
@@ -14,7 +16,9 @@
 	"type": "module",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"build": "tsup",
 		"release": "pnpm build && np",
@@ -22,18 +26,23 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.8.3",
-		"@types/node": "^20.14.12",
-		"tsup": "^8.2.3",
-		"tsx": "^4.16.2",
-		"typescript": "^5.5.4",
-		"vitest": "^2.0.4"
+		"@types/node": "^20.17.12",
+		"tsup": "^8.3.5",
+		"tsx": "^4.19.2",
+		"typescript": "^5.7.3",
+		"vitest": "^2.1.8"
 	},
 	"engines": {
 		"node": ">=18"
 	},
 	"tsup": {
-		"entry": ["src/index.ts"],
-		"format": ["cjs", "esm"],
+		"entry": [
+			"src/index.ts"
+		],
+		"format": [
+			"cjs",
+			"esm"
+		],
 		"minify": true,
 		"clean": true,
 		"dts": true
