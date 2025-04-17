@@ -21,6 +21,8 @@
 	],
 	"scripts": {
 		"build": "tsup",
+		"lint": "biome lint .",
+		"lint:fix": "biome lint --write .",
 		"format": "biome format --write .",
 		"release": "pnpm build && np",
 		"test": "vitest"
