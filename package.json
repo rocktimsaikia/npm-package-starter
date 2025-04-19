@@ -1,7 +1,7 @@
 {
 	"name": "npm-package-starter",
 	"version": "0.0.0",
-	"description": "Get country information via currency code",
+	"description": "npm-package-starter",
 	"keywords": [
 		"npm-package-starter"
 	],
@@ -24,7 +24,7 @@
 		"lint": "biome lint .",
 		"lint:fix": "biome lint --write .",
 		"format": "biome format --write .",
-		"release": "pnpm build && np",
+		"release": "np --no-publish",
 		"test": "vitest"
 	},
 	"devDependencies": {

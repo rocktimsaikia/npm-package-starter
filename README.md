@@ -41,4 +41,4 @@ Add two numbers and returns the total.
 
 ## LICENSE
 
-[MIT](./LICENSE) License &copy; [Rocktim Saikia](https://rocktimsaikia.dev) 2024
+MIT License &copy; [Rocktim Saikia](https://rocktimsaikia.dev)
