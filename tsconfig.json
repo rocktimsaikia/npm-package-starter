@@ -1,10 +1,10 @@
 {
-  "compilerOptions": {
-    "strict": true,
-    "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
-    "target": "esnext",
-    "module": "esnext",
+	"compilerOptions": {
+		"strict": true,
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"target": "esnext",
+		"module": "esnext",
 		"resolveJsonModule": true
-  }
+	}
 }
